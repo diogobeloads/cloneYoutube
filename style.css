@@ -1,0 +1,142 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.menu {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 4px;
+
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+header {
+  align-items: flex-start;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  padding: 4px 10px;
+}
+
+.logo {
+    align-self: flex-start;
+    margin-left: 10px;
+    padding: 12px;
+    width: 100px;
+}
+
+.search {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.video {
+    margin: 40px;
+}
+
+.video-info {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 0;
+}
+
+.video h1 {
+    margin-bottom: 8px;
+}
+
+.actions {
+    align-items: center;
+    display: flex;
+    gap: 12px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    height: 34px;
+    object-fit: cover;
+    padding: 0;
+    width: 34px;
+}
+
+.clip, .sino, .avatar {
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.buttons {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.info {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.info img{
+    border-radius: 50%;
+    height: 40px;
+    object-fit: cover;
+    width: 40px;
+}
+
+.buttons {
+    gap: 42px;
+    height: 42px;
+    width: 902px;
+}
+
+.views {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    gap: 8px;
+}
+
+.description {
+    color: #333;
+    font-size: 14px;
+    height: 64px;
+    line-height: 1;
+    margin-top: 0;
+    width: 510px;
+}
+
+.sidebar {
+    height: 938px;    
+    margin-right: 50px;
+    padding: 24px 16px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 260px; 
+}
+
+.video {
+    margin-right: 260px;
+}
+
+.video-item img {
+    height: 938px;
+    margin-top: 60px;
+    position: absolute;
+    width: 100%;
+}
