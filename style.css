@@ -121,22 +121,27 @@ header {
 }
 
 .sidebar {
+    position: absolute;
+    display: flex;
     height: 938px;    
     margin-right: 50px;
     padding: 24px 16px;
-    position: fixed;
     right: 0;
-    top: 0;
-    width: 260px; 
+    left: 1052px;
+    top: 84;
+    width: 160px; 
+}
+
+.sidebar img {
+    position: fixed;
+    height: 938px;
+    top: 105px;
+    left: 1052px;
+    gap: 16px;
+    right: 0;
 }
 
 .video {
     margin-right: 260px;
 }
 
-.video-item img {
-    height: 938px;
-    margin-top: 60px;
-    position: absolute;
-    width: 100%;
-}
